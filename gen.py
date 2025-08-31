@@ -755,7 +755,7 @@ elif selected == "ℹ️ About Us":
             "name": "Lalatendu Kumar Sahu",
             "role": "Machine Learning Engineer",
             "desc": "Focused on making complex medical data accessible and user-friendly.",
-            "img": "lalatendu.jpg",
+            "img": "Lalatendu.jpg",
             "skills": ["Machine Learning", "Deep Learning", "NLP"]
         },
         {
