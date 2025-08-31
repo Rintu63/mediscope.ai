@@ -138,7 +138,7 @@ selected = option_menu(
 if selected == "🏠 Home":
     st.markdown("<h1 style='text-align:center'>⚕️ Mediscope AI Health Risk Predictor</h1>", unsafe_allow_html=True)
     st.markdown("<p style='text-align:center'>Predict risks for <b>Heart Disease</b>, <b>Lung Cancer</b>, <b>Diabetes</b>, and <b>Covid-19</b>.</p>", unsafe_allow_html=True)
-    st.image("D:\disease_pred.py\Mediscope AI.png", use_container_width=True)
+    st.image("Mediscope Ai.png", use_container_width=True)
 
     # Sub-menu for diseases
     st.subheader("🔍 Choose a Predictor")
