@@ -1,0 +1,2 @@
+# mediscope.ai
+healthcare project
