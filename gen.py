@@ -78,18 +78,18 @@ def load_pickle(path:str, label:str):
         st.stop()
 
 # ---------- Load your models/scalers ----------
-HEART_MODEL_PATH  = r"D:\disease_pred.py\heart_disease_model.pkl"
-HEART_SCALER_PATH = r"D:\disease_pred.py\heart_scaler.pkl"
+HEART_MODEL_PATH  = r"heart_disease_model.pkl"
+HEART_SCALER_PATH = r"heart_scaler.pkl"
 heart_model  = load_pickle(HEART_MODEL_PATH,  "Heart model")
 heart_scaler = load_pickle(HEART_SCALER_PATH, "Heart scaler")
 
-LUNG_MODEL_PATH   = r"D:\disease_pred.py\lungs_cancer_model.pkl"
-LUNG_SCALER_PATH  = r"D:\disease_pred.py\lung_scaler.pkl"
+LUNG_MODEL_PATH   = r"lungs_cancer_model.pkl"
+LUNG_SCALER_PATH  = r"lung_scaler.pkl"
 lung_model  = load_pickle(LUNG_MODEL_PATH,  "Lung model")
 lung_scaler = load_pickle(LUNG_SCALER_PATH, "Lung scaler")
 
-DIAB_MODEL_PATH   = r"D:\disease_pred.py\diabetes_model.pkl"
-DIAB_SCALER_PATH  = r"D:\disease_pred.py\Diabetes_scaler.pkl"
+DIAB_MODEL_PATH   = r"diabetes_model.pkl"
+DIAB_SCALER_PATH  = r"diabetes_scaler.pkl"
 diab_model  = load_pickle(DIAB_MODEL_PATH,  "Diabetes model")
 diab_scaler = load_pickle(DIAB_SCALER_PATH, "Diabetes scaler")
 
@@ -431,8 +431,8 @@ if selected == "🏠 Home":
         st.subheader("🦠 Covid-19 Prediction")
 
         # Load Model & Scaler
-        covid_model = load_pickle(r"D:\disease_pred.py\covid_model.pkl", "Covid-19 model")
-        covid_scaler = load_pickle(r"D:\disease_pred.py\covid_scaler.pkl", "Covid-19 scaler")
+        covid_model = load_pickle(r"covid_model.pkl", "Covid-19 model")
+        covid_scaler = load_pickle(r"covid_scaler.pkl", "Covid-19 scaler")
 
         # ================== Custom CSS for Stunning UI ==================
         st.markdown("""
