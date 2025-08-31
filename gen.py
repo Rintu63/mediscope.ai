@@ -89,7 +89,7 @@ lung_model  = load_pickle(LUNG_MODEL_PATH,  "Lung model")
 lung_scaler = load_pickle(LUNG_SCALER_PATH, "Lung scaler")
 
 DIAB_MODEL_PATH   = r"diabetes_model.pkl"
-DIAB_SCALER_PATH  = r"diabetes_scaler.pkl"
+DIAB_SCALER_PATH  = r"Diabetes_scaler.pkl"
 diab_model  = load_pickle(DIAB_MODEL_PATH,  "Diabetes model")
 diab_scaler = load_pickle(DIAB_SCALER_PATH, "Diabetes scaler")
 
